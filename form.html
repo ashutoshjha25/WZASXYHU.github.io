@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>form</title>
+</head>
+<body bgcolor="#E6E6FA">
+<form id= "myform" action="/action_page.php">
+First Name: <input type="text" name="FirstName" value="" size="15" maxlength="15" />
+Last Name: <input type="text" name="LastName" value="" size="20" maxlength="20"  /><br />
+Birthday (date and time):
+  <input type="datetime-local" name="bdaytime"><br />
+<p>Time Period
+<ol>
+<input type="radio" name="time period" value="1 day" />1 day<br />
+<input type="radio" name="time period" value="2 days" />2 days<br />
+<input type="radio" name="time period" value="3 days" checked="checked" />3 days<br />
+<ol>
+<input type="checkbox" name="checkbox1"  />with nitro<br />
+<input type="checkbox" name="checkbox2" checked="checked"  />with helmet<br />
+<select name="select model">
+   <option>Kawasaki Ninja H2R</option>
+   <option>Aprilla</option>
+   <option>Hayabusa</option>
+   <option selected="selected">select model</option>
+</select>
+<p>enter email
+E-mail:
+  <input type="email" name="email">
+<input type="reset" name="submitbutton" value="cancel" /><br />
+<input type="submit" name="submitbutton" value="submit" /><br />
+</form>
+</html>
